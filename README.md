@@ -1,20 +1,26 @@
 # Personal-Pixivweb
 This is a web page which is linking with Pixiv,maybe.<br>
 
-这里是渣新自己写的一份HTML5期中作业（W大雾W），是一个仿Pixiv登录页制作的个人主页，大概吧？("▔□▔)/<br>
+这里是渣新自己写的一份HTML5期中作业（W大雾W），是一个仿Pixiv登录页制作的个人主页，大概吧？(°∀°)ﾉ<br>
 I hope you don't expect it too much.<br>
 
 <div align=center><img src="" />绝对不可以笑哦</div><br>
+<br>
 
 ## 效果预览/Effect Preview(｀・ω・´)
+温馨提示：使用Chrome食用体验更佳哦~<br>
+Warm Tip: Better Browsing Experience with Chrome~<br>
+
 ![image]()<br>
 <br>
 
 ## 食用说明/InstructionsΣ(ﾟдﾟ;)
 警告：由于个人能力不足，导致主页还无法同步链接到Pixiv个人账号，使用操作会显繁琐QAQ<br>
-个人会努力在之后进行项目更新，进行背景图与P站日榜的同步（或者个人帐户收藏夹同步），把设计的不太简陋的博客一同丢上来Orz<br>
+个人会努力在之后进行项目更新，进行背景图与P站日榜的同步（或者个人帐户收藏夹同步），把设计的不太简陋的博客一同丢上来（咕咕咕）<br>
 Warning: Due to insufficient personal ability, the home page can not link to Pixiv personal account synchronously, and the operation will be tedious.QAQ<br>
 I will try to update the project later, synchronize the background map with the daily list of P stations (or personal account favorites), and throw the poorly designed blog together.ORZ<br>
+
+<div align=center><img src="" />你的进度怎么样了</div><br>
 <br>
 
 ### 背景替换/Background substitution(=・ω・=)
@@ -74,3 +80,29 @@ Using Dreamweaver or other HTML compilers (Notepad++), change the VaR singer par
 <div align=center><img src="" /></div><br>
 <br>
 
+## 备注/RemarksΣ( ￣□￣||)
+如果想要增加/减少背景图片，对于index.html文件中的var pictures,var work,var works,var heads,var author及var authors进行同样的增加/减少<br>
+If you want to increase or decrease the background image, increase or decrease the VaR pictures, var work, var works, var heads, var author and VaR authors in the index. HTML file as well.<br>
+<br>
+如果想要增加/减少主页歌曲，对于index.html文件中的var music及var singer进行同样的增加/减少<br>
+If you want to add/reduce home page songs, add/decrease the same number of VaR music and VaR singer in index. HTML file<br>
+
+<div align=center><img src=""问题解决了 /></div><br>
+<br>
+
+## 写在最后/In the end
+非常感谢各位对这个小页面的支持和认可，感谢每一位对我做出指导的朋友<br>
+本项目所涉及作品一切权力归原作者所有，感谢每一位创造者的辛勤付出<br>
+相聚有时，后会无期<br>
+我们有缘再见("▔□▔)/<br>
+<br>
+Thank you very much for your support and recognition of this small page. Thank you for your guidance to me.<br>
+All the rights involved in this project belong to the original author. Thank each creator for his hard work.<br>
+Sometimes we get together, and then there's no end to it.<br>
+Hoping to see you soon.<br>
+
+<div align=center><img src="" /></div><br>
+<br>
+
+## <div align=center>Open the eyes to see the world when the world like to see you.</div><br>
+## <div align=center>向热爱着你的世界投入拥抱</div><br>
