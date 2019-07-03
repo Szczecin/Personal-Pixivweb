@@ -1,0 +1,11 @@
+#good {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 400px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color:white;
+  z-index: 999;
+}

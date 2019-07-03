@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+<title>Szczecinの[食用指南]</title>
+<link rel="icon" href="pic/logo/logo.jpg" sizes="32x32">
+
+<link href="css/search.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/test.css">
+<link href="css/time.css" rel="stylesheet" type="text/css">
+<link href="css/newfollow.css" rel="stylesheet" type="text/css">
+<link href="css/artist.css" rel="stylesheet" type="text/css">
+<link href="css/good.css" rel="stylesheet" type="text/css">
+<link href="css/blog.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://s.pximg.net/www/css/accounts-index.css?73f14ddad44fdcca5260863d190cc06d">
+<link href="css/music.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/cycle.js"></script>
+<script type="text/javascript" src="js/newfollow.js"></script>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+<script>
+var heads = ["pic/head/1.png","pic/head/2.png","pic/head/3.png","pic/head/4.png","pic/head/5.png",
+			 "pic/head/6.png","pic/head/7.png","pic/head/8.png", "pic/head/9.png","pic/head/10.png",
+			"pic/head/11.png","pic/head/12.png","pic/head/13.png","pic/head/14.png","pic/head/15.png",
+			"pic/head/16.png","pic/head/17.png","pic/head/18.png","pic/head/19.png","pic/head/20.png",
+			 "pic/head/21.png","pic/head/22.png","pic/head/23.png","pic/head/24.png","pic/head/25.png",
+			"pic/head/26.png","pic/head/27.png","pic/head/28.png","pic/head/29.png","pic/head/30.png",
+			"pic/head/31.png","pic/head/32.png"];
+var work = ["She is on the calm stage.","圧倒的美少女","画个熊天使","芸カ新刊「START LINE」サンプル","2",
+			"dawn","明日方舟-斯卡蒂","明日方舟","ProJeKT RED","あの頃","BBB","致一千年後的你","龟裂的现实",
+			"Re.CREATORS","アルタイル。。","ありがとう。","詰め合わせ","HANA","雷蛇&芙兰卡","無題",
+			"Arknights / Penguin Logistics","花中","saria","迷走",".","Academy works","視線","好きだったよ","楔",
+		   "波の音","WIND~","割れてしまう前に"];
+var author = ["banishment","鮎瀬サウリ","卧龙先生的爸爸","焦茶 ◆ 芸カ キ01","_LM7_","Alcxome","Train_HB","Sytoc","RKZROK",
+				"まつだひかり","mikuma/MkMA","sawanaお仕事募集中","AkrainSnow","珂雷clay","れいた@金曜 西P40b","loundraw",
+			  "なるゑ","NARU","Restoria.樓","裏方","幻像黒兎","阿桑梓Asanz","WaterSwing","へびつかい","東西","82PIGEON",
+			  "マシマサキ","しぐれうい","ふすい","U35(うみこ)","Novelance","げみ"];
+var authors = ["https://www.pixiv.net/member.php?id=23223750",
+			   "https://www.pixiv.net/member.php?id=10511528",
+			   "https://www.pixiv.net/member.php?id=7253174",
+			   "https://www.pixiv.net/member.php?id=12845810",
+			   "https://www.pixiv.net/member.php?id=420928",
+			   "https://www.pixiv.net/member.php?id=35562628",
+			   "https://www.pixiv.net/member.php?id=21953098",
+			   "https://www.pixiv.net/member.php?id=10169435",
+			   "https://www.pixiv.net/member.php?id=15745122",
+			   "https://www.pixiv.net/member.php?id=102267",
+			   "https://www.pixiv.net/member.php?id=4262043",
+			   "https://www.pixiv.net/member.php?id=346333",
+			   "https://www.pixiv.net/member.php?id=3112430",
+			   "https://www.pixiv.net/member.php?id=14922976",
+			   "https://www.pixiv.net/member.php?id=5494559",
+			   "https://www.pixiv.net/member.php?id=772547",
+			   "https://www.pixiv.net/member.php?id=15086299",
+			   "https://www.pixiv.net/member.php?id=15866498",
+			   "https://www.pixiv.net/member.php?id=11267697",
+			   "https://www.pixiv.net/member.php?id=2029458",
+			   "https://www.pixiv.net/member.php?id=4462245",
+			  "https://www.pixiv.net/member.php?id=19679904",
+			  "https://www.pixiv.net/member.php?id=3161499",
+			  "https://www.pixiv.net/member.php?id=935581",
+			  "https://www.pixiv.net/member.php?id=16347608",
+			  "https://www.pixiv.net/member.php?id=793999",
+			  "https://www.pixiv.net/member.php?id=18403608",
+			  "https://www.pixiv.net/member.php?id=431873",
+			  "https://www.pixiv.net/member.php?id=1409819",
+			  "https://www.pixiv.net/member.php?id=337971",
+			  "https://www.pixiv.net/member.php?id=10710834",
+			  "https://www.pixiv.net/member.php?id=396769"]
+var works = ["https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72525491",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=66347331",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74759884",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75102830",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75087826",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74157518",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75101524",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=67687967",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74657301",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74997577",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75064317",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74886174",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62835741",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=65010812",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=64824920",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72810703",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74760089",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74759683",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74626049",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=70778327",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=64457926",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71586829",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74761704",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74744380",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74208950",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74253881",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74238474",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74130354",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73891130",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=58728655",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73636925",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74228429"]
+var pictures = ["pic/img/1.png","pic/img/2.png","pic/img/3.png","pic/img/4.png","pic/img/5.png",
+				"pic/img/6.png","pic/img/7.png","pic/img/8.png","pic/img/9.png","pic/img/10.png",
+			   "pic/img/11.png","pic/img/12.png","pic/img/13.png","pic/img/14.png","pic/img/15.png",
+			   "pic/img/16.png","pic/img/17.png","pic/img/18.png","pic/img/19.png","pic/img/20.png",
+				"pic/img/21.png","pic/img/22.png","pic/img/23.png","pic/img/24.png","pic/img/25.png",
+			   "pic/img/26.png","pic/img/27.png","pic/img/28.png","pic/img/29.png","pic/img/30.png",
+			   "pic/img/31.png","pic/img/32.png"]
+var good = ["おはよう,GoodMoring","こんにちは,GoodAfternoon","こんばんは,GoodEvening","おやすみ,GoodNight"]
+
+var music = ["music/1.mp3","music/2.mp3","music/3.mp3","music/4.mp3","music/5.mp3","music/6.mp3",
+			"music/7.mp3"]
+var singer = ["松谷卓 - 共病文庫","Shelter (Piano version)","Axero - River","米津玄師 - lemon",
+			  "第三乐章 - 表象展观","ツキアカリのミチシルベ","周深 - 亲爱的旅人啊"]
+
+var mydate = new Date();
+var hours = parseInt(mydate.getHours());
+	
+function run(){
+	setInterval(cycle,10000);  //重复运行cycle函数，周期10000ms
+	setInterval(Goodmoring,1000);
+	var mp3 = Math.floor((Math.random() * music.length));
+	document.getElementById("singer").innerHTML = singer[mp3];
+	document.getElementById("music").src = music[mp3];
+}
+	
+function cycle(){
+	var counter = Math.floor((Math.random() * heads.length));
+		document.getElementById("artist_head").src = heads[counter];
+		document.getElementById("works").innerHTML = work[counter];
+		document.getElementById("author").innerHTML = author[counter];
+		document.getElementById("authors").href = authors[counter];
+		document.getElementById("works").href = works[counter];
+		document.getElementById("backimg").src = pictures[counter];
+		document.getElementById("cubeimg").src = pictures[counter];
+}
+	
+function Goodmoring(){
+	if(hours>=6 && hours<12)
+		document.getElementsById("good").innerHTML = good[0];
+	if(hours>=12 && hours<18)
+		document.getElementById("good").innerHTML = good[1];
+	if(hours>=18 && hours<24)
+		document.getElementById("good").innerHTML = good[2];
+	if(hours>=0 && hours<6)
+		document.getElementById("good").innerHTML = good[3];
+}
+</script>
+
+</head>
+
+<body onload = "run()">
+	<div class="all">
+		<div class="demo-cube">
+			
+	  		<div class="search">
+    		  	<div class="container">
+    		    	<form method=get action="http://www.google.com/search"  target="_blank" id="parent">
+    		      		<input type="text" name=q id="search" placeholder="Why not Google?">
+    		      		<input type="image" name="search" value="" id="btn">
+    		      		<span class="fa fa-search fa-lg" id="search_img"></span>
+  		      		</form>
+					<div id="music_right">
+						<a id="singer">
+			松谷卓 - 共病文庫
+							</a>
+			<div class="audio_right">
+			<audio id="music" controls="controls" src="music/1.mp3" autoplay="autoplay" loop="loop"></audio>
+			</div>
+		</div>
+  		    	</div>
+    		  	<div class="search_logo">
+					<a href="https://cn.bing.com" target="_blank">
+						<img src="pic/logo/search.png" alt="To Google" id="google_logo">
+					</a>
+				</div>
+    		</div>
+			
+		  <div class="backpic">
+			<img src="pic/img/1.png" alt="" id="backimg">
+			</div>
+			
+			<div class="follow">
+				<div class="top">
+					<img src="pic/img/1.png" alt="" id="cubeimg">
+				</div>
+				<div class="down">
+					<canvas>
+				</canvas>
+				<script type="text/javascript" src="js/newfollow.js"></script>
+				</div>
+				</div>
+			
+		  <div class="limit">
+			<div class="g-number-container vision preserve">
+  			<div class="g-number-rotate preserve">
+    <div class="g-number preserve" data-digit="1">
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+    </div>
+    <div class="g-number preserve" data-digit="8">
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+    </div>
+    <div class="g-number preserve" data-digit="7">
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+    </div>
+    <div class="g-comma preserve"></div>
+    <div class="g-number preserve" data-digit="3">
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+    </div>
+    <div class="g-number preserve" data-digit="2">
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+    </div>
+    <div class="g-number preserve" data-digit="6">
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+      <div class="g-line preserve translate"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(function() {
+    let numbers = $('.g-number');
+    
+    setInterval(() => {
+        Array.prototype.slice.call(numbers).forEach((key) => {
+            $(key).attr('data-digit', parseInt(Math.random() * 10)); 
+        });
+    }, 2000);
+});
+</script>
+    	</div>
+		</div>
+		
+		<div class="demo_top"></div>
+		<div class="re">
+				<a target="_blank" href="">Blog</a> 
+			</div>
+		<div class="demo_bottom"></div>
+		<div class="nt">
+			<a target="_blank" href="page/falls.html">Falls</a>
+		</div>
+		
+		<div class="description">
+		<div class="artist">
+			<a id="authors" target="_blank" href="https://www.pixiv.net/member.php?id=23223750">
+				<img alt="heads" src="pic/head/1.png" id="artist_head">
+			</a>
+		</div>
+		<div class="introduce">
+			<div id="work_name">
+				<a id="works" target="_blank" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72525491">
+					She is on the calm stage.
+				</a>
+			</div>
+			<div id="author">banishment</div>
+		</div>
+	</div>
+		
+	  <div id="good">おはよう,GoodMoring</div>
+		
+	  <div id="footer">
+		<div class="_footer-container">
+			<div class="_footer-content">
+				<div class="_footer-content-item">
+					<span class="_icon-text">Steins；Gate</span>
+					<span class="fa fa-sort-desc fa-lg"></span>
+					<div class="content-popup about">
+						<div class="uptop">
+							<div class="footer_logo">
+								<a href="http://steinsgate.jp/10th/" target="_blank">
+									<img src="pic/logo/Steins;Gate10.png" id="footer-SteinsGate-logo">
+								</a>
+							</div>
+							<div class="popup_introduce">
+								<span id="footer-popup_introduce">以下是常用的社交平台，不知廉耻的求一波关注QWQ：</span>
+							</div>
+						</div>
+						<dl class="links">
+							<dt>哔哩哔哩[bilibili]</dt>
+							<dd>
+								<div class="head_pic">
+									<a href="https://space.bilibili.com/1605910" target="_blank">
+										<img src="pic/logo/bilibili.jpg" id="headimg">
+									</a>
+								</div>
+								<ul>
+									<li><a href="https://space.bilibili.com/1605910" target="_blank">ヴァン青</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="links">
+							<dt>插画交流网站[Pixiv]</dt>
+							<dd>
+								<div class="head_pic">
+									<a href="https://www.pixiv.net/member.php?id=8221459" target="_blank">
+										<img src="pic/logo/pixiv.jpg" id="headimg">
+									</a>
+								</div>
+								<ul>
+									<li><a href="https://www.pixiv.net/member.php?id=8221459" target="_blank">£梵青</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="links">
+							<dt>推特[twitter]</dt>
+							<dd>
+								<div class="head_pic">
+									<a href="https://twitter.com/Szczecin19" target="_blank">
+										<img src="pic/logo/twitter.jpg" id="headimg">
+									</a>
+								</div>
+								<ul>
+									<li><a href="https://twitter.com/Szczecin19" target="_blank">Szczecin</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="links">
+							<dt>乐乎[lofter]</dt>
+							<dd>
+								<div class="head_pic">
+									<a href="http://szczecin-stettin.lofter.com/" target="_blank">
+										<img src="pic/logo/lofter.jpg" id="headimg">
+									</a>
+								</div>
+								<ul>
+									<li><a href="http://szczecin-stettin.lofter.com/" target="_blank">梵青</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<div class="footer-szczecin-c">© Szczecin</div>
+					</div>
+				</div>
+				
+				<div class="_footer-content-item">
+					<span class="_icon-text">薛定谔传送门</span>
+					<span class="fa fa-sort-desc fa-lg"></span>
+					<ul class="content-popup">
+						<li class="item">
+							<a href="https://www.bilibili.com" target="_blank">
+								<img src="pic/logo/Blibili.png" id="favicon" align="left">
+								<span>Bilibili</span>
+							</a>
+						</li>
+						<li class="item">
+							<a href="https://www.pixiv.net" target="_blank">
+								<img src="pic/logo/Pixiv.png" id="favicon" align="left">
+								<span>Pixiv</span>
+							</a>
+						</li>
+						<li class="item">
+							<a href="https://twitter.com/" target="_blank">
+								<img src="pic/logo/Twitter.png" id="favicon" align="left">
+								<span>Twitter</span>
+							</a>
+						</li>
+						<li class="item">
+							<a href="http://www.lofter.com/" target="_blank">
+								<img src="pic/logo/Lofter.png" id="favicon" align="left">
+								<span>Lofter</span>
+							</a>
+						</li>
+						<li class="item">
+							<a href="https://my.vultr.com/subs/?SUBID=23422675" target="_blank">
+								<img src="pic/logo/Vultr.png" id="favicon" align="left">
+								<span>SSR</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

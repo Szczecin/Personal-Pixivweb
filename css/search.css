@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+    padding: 0;
+	color:black;
+}
+.all{
+	height: 100%;
+	width: 100%;
+	position:absolute;
+}
+.container {
+    height: 70px;
+    width: 80%;
+	float: right;
+	margin: 0;
+    padding: 0;
+	position:relative;
+}
+#parent {
+    position: absolute;
+}
+#search {
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+	margin-top: 10px;
+    position: absolute;
+	z-index:1100;
+}
+#btn {
+    height: 43px;
+    width: 44px;
+    position: absolute;
+    top: 10px;
+    left: 278px;
+    border-radius: 18px;
+    outline: none;
+    cursor: pointer;
+	z-index: 1200;
+}
+.search {
+	height: 70px;
+	width: 100%;
+	top: 0px;
+	position: fixed;
+	z-index: 1000;
+}
+#search_img {
+	margin-left: 290px;
+	margin-top: 22px;
+	position: absolute;
+	z-index: 1150;
+}
+.search_logo {
+	height: 70px;
+	width: 20%;
+	float:left;
+	text-align: center;
+	position:absolute;
+}
+#google_logo {
+	height: 85px;
+	width: auto;
+}
+.demo-cube {
+	height: 100%
+	width: 100%;
+	position:relative;
+	z-index: 1;
+}
+.backpic{
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index:2;
+}
+#backimg {
+  	width: 100%;
+  	height: 100%;
+	background-size: contain|cover;
+	opacity:0.7;
+	z-index:-1;
+}
+
+.follow{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 4;
+}
+
+.top{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	position: relative;
+	z-index: 4;
+}
+
+.down{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	position: fixed;
+	z-index: 5;
+}
+
+#cubeimg {
+	position:relative;
+  	width: 100%;
+  	height: 100%;
+	background-size: contain|cover;
+	z-index:5;
+
+  	-webkit-clip-path: polygon(49% 3%, 97% 26%, 97% 70%, 49% 98%, 1% 70%, 1% 26%);
+  /* -webkit-clip-path:polygon(143px 3px, 286px 84px, 284px 250px, 143px 328px, 3px 252px, -1px 85px); */
+  	-webkit-animation: pic_show 20s cubic-bezier(0.27, 0.25, 0.76, 0.76) infinite;
+	
+	-moz-clip-path: polygon(49% 3%, 97% 26%, 97% 70%, 49% 98%, 1% 70%, 1% 26%);
+	-moz-animation: pic_show 20s cubic-bezier(0.27, 0.25, 0.76, 0.76) infinite;
+  	animation: pic_show 20s cubic-bezier(0.27, 0.25, 0.76, 0.76) infinite;
+}
+
+@-webkit-keyframes pic_show {
+  0% {
+    -webkit-clip-path: polygon(49% 3%, 97% 26%, 97% 70%, 49% 98%, 1% 70%, 1% 26%);
+  }
+  10% {
+    -webkit-clip-path: polygon(60% 5%, 99% 32%, 98% 75%, 43% 98%, 7% 73%, 5% 24%);
+  }
+  20% {
+    -webkit-clip-path: polygon(69% 8%, 96% 37%, 95% 85%, 36% 98%, 9% 70%, 9% 21%);
+  }
+  30% {
+    -webkit-clip-path: polygon(78% 10%, 95% 41%, 95% 90%, 30% 98%, 13% 68%, 13% 19%);
+  }
+}
+
+@-moz-keyframes pic_show {
+  0% {
+    -moz-clip-path: polygon(49% 3%, 97% 26%, 97% 70%, 49% 98%, 1% 70%, 1% 26%);
+  }
+  10% {
+    -moz-clip-path: polygon(60% 5%, 99% 32%, 98% 75%, 43% 98%, 7% 73%, 5% 24%);
+  }
+  20% {
+    -moz-clip-path: polygon(69% 8%, 96% 37%, 95% 85%, 36% 98%, 9% 70%, 9% 21%);
+  }
+  30% {
+    -moz-clip-path: polygon(78% 10%, 95% 41%, 95% 90%, 30% 98%, 13% 68%, 13% 19%);
+  }
+}

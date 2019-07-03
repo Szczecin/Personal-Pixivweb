@@ -1,0 +1,22 @@
+#music_right{
+	color: white;
+	float: right;
+	text-align: left;
+	margin-top: 20px;
+	width: 70%;
+	font-weight: bold;
+	font-size:20px;
+}
+#music_right .audio_right{
+	top: 5px;
+	right: 20%;
+	position: fixed;
+	text-align: center;
+	display: none;
+}
+#music_right:hover .audio_right{
+	display: block;
+}
+a#singer{
+	color: white;
+}

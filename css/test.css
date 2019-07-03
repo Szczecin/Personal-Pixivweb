@@ -1,0 +1,173 @@
+._footer-container{
+	height:30px;
+	width:100%;
+	position:fixed;
+	left:0;
+	bottom:0;
+	color:hsla(0,0%,100%,.5);
+	background: rgba(126,126,126,0.7);
+	z-index:997;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	z-index: 1000;
+}
+._footer-content{
+	position:relative;
+	height:100%;
+	margin:0 auto;
+	padding-left:10px
+}
+._footer-content-item{
+	display:inline-block;
+	position:relative;
+	z-index:997;
+	line-height:30px;
+	height:30px;
+	padding:0 10px;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+._footer-content-item.right{
+	float:right
+}
+._footer-content-item.feedback{
+	height:100%;
+	padding:0 10px;
+	line-height:30px;
+	background-color:#757c80;
+	color:#fff;
+	cursor:pointer
+}
+._footer-content-item:hover{
+	background-color:hsla(0,0%,100%,.1)
+}
+._footer-content-item .content-popup{
+	display:none;
+	position:absolute;
+	left:0;
+	bottom:30px;
+	padding:10px;
+	border-radius:5px 5px 0 0;
+	min-width:100%;
+	cursor:default;
+	-webkit-user-select:auto;
+	-moz-user-select:auto;
+	-ms-user-select:auto;
+	user-select:auto
+}
+._footer-content-item:hover .content-popup{
+	display:block
+}
+._footer-content-item:hover .content-popup{
+	display:block
+}
+._footer-content-item ul.content-popup{
+	min-width: 140px;
+	color:aliceblue;
+	margin: 0px;
+	padding: 0px;
+	background: rgba(126,126,126,0.3);
+	list-style:none;
+	z-index: 1000;
+}
+._footer-content-item ul.content-popup .item{
+	line-height:45px
+}
+._footer-content-item ul.content-popup .item:hover{
+	background-color:#82898c
+}
+._footer-content-item ul.content-popup .button{
+	display:block;
+	width:100%;
+	height:100%;
+	height:30px;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+	background:none;
+	padding: 0 20px;
+	border:none;
+	cursor:pointer;
+}
+._footer-content-item .about{
+	box-sizing:border-box;
+	padding:20px 20px 0;
+	width:890px;
+	background: rgba(126,126,126,0.3);
+	max-width:80vw;
+	color:#fff;
+	z-index: 1000;
+}
+._footer-content-item .about #footer-SteinsGate-logo{
+	height: 100%;
+	width: 100%;
+	display:inline-block;
+	text-align: center;
+}
+._footer-content-item .about #footer-popup_introduce{
+	display:block;
+	line-height:1.5;
+	text-align: center;
+}
+._footer-content-item .about .footer-szczecin-c{
+	text-align:right;
+	padding:0 10px
+}
+._footer-content-item .about .links{
+	width:170px;
+	display:inline-block;
+	vertical-align:top;
+	padding:0 10px;
+	box-sizing:border-box;
+	white-space:nowrap;
+	overflow:hidden;
+	margin-top:15px
+}
+._footer-content-item .about .links dt{
+	line-height:40px;
+	font-weight:700
+}
+._footer-content-item .about .links dd{
+	line-height:20px
+}
+._footer-content-item .about .links dd a{
+	color:#fff
+}
+.uptop{
+	height: 30%;
+	width: 100%;
+	position: relative;
+}
+.footer_logo{
+	height: 30%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.popup_introduce{
+	height: 30%;
+	width: 50%;
+	float: right;
+	position: relative;
+}
+.head_pic{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+#headimg{
+	height: 100%;
+	width: 100%;
+	border-radius: 50px;
+}
+#favicon{
+	height: 30px;
+	width: auto;
+}
+a{
+	color: aliceblue;
+	text-decoration:none;
+}
