@@ -1,20 +1,20 @@
 # 天真，真的以为我会仔细讲吗？(￣ε(#￣) Σ
 I really,really,really,really ^ N don't want to explain it...<br>
 
-<div align=center><img src="" /></div><br>
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/0S(%7D%5BC%5DWW_01WUBUHLP9GX0.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/%242OO0TU6PIP5%5BJQ84YWU6%5B6.png" /></div><br>
 
 ## 层次结构/Hierarchical structure
-<div align=center>re/nt</div>
-<div align=center>↓↓↓↓↓</div>
-<div align=center>search/footer/description</div>
-<div align=center>↓↓↓↓↓</div>
-<div align=center>good</div>
-<div align=center>↓↓↓↓↓</div>
-<div align=center>limit</div>
-<div align=center>↓↓↓↓↓</div>
-<div align=center>follow</div>
-<div align=center>↓↓↓↓↓</div>
+<div align=center>re/nt</div><br>
+<div align=center>↓↓↓↓↓</div><br>
+<div align=center>search/footer/description</div><br>
+<div align=center>↓↓↓↓↓</div><br>
+<div align=center>good</div><br>
+<div align=center>↓↓↓↓↓</div><br>
+<div align=center>limit</div><br>
+<div align=center>↓↓↓↓↓</div><br>
+<div align=center>follow</div><br>
+<div align=center>↓↓↓↓↓</div><br>
 <div align=center>backpic</div><br>
 
 ## 部分代码注解/Partial Code Annotations
@@ -353,11 +353,14 @@ $(function() {
 懒，不想写了，反正也没人看(´；ω；`)<br>
 Lazy, do not want to write, anyway, no one read it...<br>
 
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/-18b55d325acb9a3e.gif" /></div><br>
+<br>
+
 ### 博客/Blog
 暂不开放(I'm very vegetable)( ´_ゝ｀)<br>
 Not open yet<br>
 <br>
 
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/12547826_p0.jpg" /></div><br>
 
 ## <div align=center>Everything that kills me makes me feel alive.<br><br>沉舟侧畔千帆过 病树前头万木春</div><br>
