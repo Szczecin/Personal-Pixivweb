@@ -45,6 +45,8 @@ function cycle(){
 	z-index:-1;
 }
 ```
+<br>
+
 ### 方块切片/Block slice
 ```JavaScript
     	..........
@@ -96,6 +98,8 @@ function cycle(){
   }
 }
 ```
+<br>
+
 ### 随机歌曲/Random Songs
 ```JavaScript
 function run(){
@@ -112,6 +116,8 @@ function run(){
 	</div>
 </div>
 ```
+<br>
+
 ### 搜索引擎/Search Engines
 ```HTML5
 <div class="search">
@@ -195,6 +201,8 @@ function run(){
 	width: auto;
 }
 ```
+<br>
+
 ### 网页导航/Webpage navigation
 ```HTML5
 .................
@@ -238,6 +246,8 @@ function run(){
 	background-color:hsla(0,0%,100%,.1)
 }
 ```
+<br>
+
 ### 社交平台/Social Platform
 ```HTML5
 ..................
@@ -276,6 +286,8 @@ function run(){
 	display:block
 }
 ```
+<br>
+
 ### 作者信息/Author Information
 ```JavaScript
     	............................................................
@@ -303,6 +315,8 @@ function run(){
 	</div>
 </div>
 ```
+<br>
+
 ### 鼠标移动/Mouse movement
 ```HTML5
 <div class="down">
@@ -311,6 +325,8 @@ function run(){
 	<script type="text/javascript" src="js/newfollow.js"></script>
 </div>
 ```
+<br>
+
 ### 问候语/Greetings
 ```JavaScript
 function Goodmoring(){
@@ -324,6 +340,8 @@ function Goodmoring(){
 		document.getElementById("good").innerHTML = good[3];
 }
 ```
+<br>
+
 ### 数字浮动/Digital floating
 ```JavaScript
 $(function() {
@@ -349,6 +367,8 @@ $(function() {
       </div>
       .............................................
 ```
+<br>
+
 ### 瀑布流/Falls
 懒，不想写了，反正也没人看(´；ω；`)<br>
 Lazy, do not want to write, anyway, no one read it...<br>
