@@ -22,11 +22,11 @@ I really,really,really,really ^ N don't want to explain it...<br>
 ```JavaScript
 function cycle(){
 	var counter = Math.floor((Math.random() * heads.length));
-  document.getElementById("backimg").src = pictures[counter];
+  	document.getElementById("backimg").src = pictures[counter];
 ```
 ```HTML5
 <div class="backpic">
-			<img src="pic/img/1.png" alt="" id="backimg">
+	<img src="pic/img/1.png" alt="" id="backimg">
 </div>
 ```
 ```CSS
@@ -47,13 +47,13 @@ function cycle(){
 ```
 ### 方块切片/Block slice
 ```JavaScript
-    ..........
-    document.getElementById("cubeimg").src = pictures[counter];
-    ..........
+    	..........
+    	document.getElementById("cubeimg").src = pictures[counter];
+    	..........
 ```
 ```HTML5
 <div class="top">
-		<img src="pic/img/1.png" alt="" id="cubeimg">
+	<img src="pic/img/1.png" alt="" id="cubeimg">
 </div>
 ```
 ```CSS
@@ -106,27 +106,27 @@ function run(){
 ```
 ```HTML5
 <div id="music_right">
-			<a id="singer">松谷卓 - 共病文庫</a>
-			<div class="audio_right">
-			       <audio id="music" controls="controls" src="music/1.mp3" autoplay="autoplay" loop="loop"></audio>
-			</div>
+	<a id="singer">松谷卓 - 共病文庫</a>
+	<div class="audio_right">
+		<audio id="music" controls="controls" src="music/1.mp3" autoplay="autoplay" loop="loop"></audio>
+	</div>
 </div>
 ```
 ### 搜索引擎/Search Engines
 ```HTML5
 <div class="search">
     	<div class="container">
-    		   <form method=get action="http://www.google.com/search"  target="_blank" id="parent">
-    		        <input type="text" name=q id="search" placeholder="Why not Google?">
-    		      	<input type="image" name="search" value="" id="btn">
-    		      	<span class="fa fa-search fa-lg" id="search_img"></span>
-  		     </form>
-  		</div>
-      <div class="search_logo">
-					<a href="https://cn.bing.com" target="_blank">
-						<img src="pic/logo/search.png" alt="To Google" id="google_logo">
-					</a>
-			</div>
+    		<form method=get action="http://www.google.com/search"  target="_blank" id="parent">
+    			<input type="text" name=q id="search" placeholder="Why not Google?">
+    			<input type="image" name="search" value="" id="btn">
+    			<span class="fa fa-search fa-lg" id="search_img"></span>
+  		</form>
+  	</div>
+      	<div class="search_logo">
+		<a href="https://cn.bing.com" target="_blank">
+			<img src="pic/logo/search.png" alt="To Google" id="google_logo">
+		</a>
+	</div>
 </div>
 ```
 ```CSS
@@ -199,10 +199,10 @@ function run(){
 ```HTML5
 .................
 <li class="item">
-		<a href="https://www.bilibili.com" target="_blank">
-		  <img src="pic/logo/Blibili.png" id="favicon" align="left">
-			<span>Bilibili</span>
-		</a>
+	<a href="https://www.bilibili.com" target="_blank">
+		<img src="pic/logo/Blibili.png" id="favicon" align="left">
+		<span>Bilibili</span>
+	</a>
 </li>
 .................
 ```
@@ -242,17 +242,17 @@ function run(){
 ```HTML5
 ..................
 <dl class="links">
-    <dt>哔哩哔哩[bilibili]</dt>
-		<dd>
-		    <div class="head_pic">
-						<a href="https://space.bilibili.com/1605910" target="_blank">
-								<img src="pic/logo/bilibili.jpg" id="headimg">
-						</a>
-				</div>
-				<ul>
-						<li><a href="https://space.bilibili.com/1605910" target="_blank">ヴァン青</a></li>
-				</ul>
-		</dd>
+	<dt>哔哩哔哩[bilibili]</dt>
+	<dd>
+		<div class="head_pic">
+			<a href="https://space.bilibili.com/1605910" target="_blank">
+				<img src="pic/logo/bilibili.jpg" id="headimg">
+			</a>
+		</div>
+		<ul>
+			<li><a href="https://space.bilibili.com/1605910" target="_blank">ヴァン青</a></li>
+		</ul>
+	</dd>
 </dl>
 ..................
 ```
@@ -278,37 +278,37 @@ function run(){
 ```
 ### 作者信息/Author Information
 ```JavaScript
-    ............................................................
-    document.getElementById("artist_head").src = heads[counter];
-		document.getElementById("works").innerHTML = work[counter];
-		document.getElementById("author").innerHTML = author[counter];
-		document.getElementById("authors").href = authors[counter];
-		document.getElementById("works").href = works[counter];
-    ............................................................
+    	............................................................
+    	document.getElementById("artist_head").src = heads[counter];
+	document.getElementById("works").innerHTML = work[counter];
+	document.getElementById("author").innerHTML = author[counter];
+	document.getElementById("authors").href = authors[counter];
+	document.getElementById("works").href = works[counter];
+    	............................................................
 ```
 ```HTML5
 <div class="description">
-		<div class="artist">
-			<a id="authors" target="_blank" href="https://www.pixiv.net/member.php?id=23223750">
-				<img alt="heads" src="pic/head/1.png" id="artist_head">
+	<div class="artist">
+		<a id="authors" target="_blank" href="https://www.pixiv.net/member.php?id=23223750">
+			<img alt="heads" src="pic/head/1.png" id="artist_head">
+		</a>
+	</div>
+	<div class="introduce">
+		<div id="work_name">
+			<a id="works" target="_blank" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72525491">
+				She is on the calm stage.
 			</a>
 		</div>
-		<div class="introduce">
-			<div id="work_name">
-				<a id="works" target="_blank" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72525491">
-					She is on the calm stage.
-				</a>
-			</div>
-			<div id="author">banishment</div>
-		</div>
+		<div id="author">banishment</div>
 	</div>
+</div>
 ```
 ### 鼠标移动/Mouse movement
 ```HTML5
 <div class="down">
-		<canvas>
-		</canvas>
-		<script type="text/javascript" src="js/newfollow.js"></script>
+	<canvas>
+	</canvas>
+	<script type="text/javascript" src="js/newfollow.js"></script>
 </div>
 ```
 ### 问候语/Greetings
@@ -353,3 +353,11 @@ $(function() {
 懒，不想写了，反正也没人看(´；ω；`)<br>
 Lazy, do not want to write, anyway, no one read it...<br>
 
+### 博客/Blog
+暂不开放(I'm very vegetable)( ´_ゝ｀)<br>
+Not open yet<br>
+<br>
+
+<div align=center><img src="" /></div><br>
+
+## <div align=center>Everything that kills me makes me feel alive.<br><br>沉舟侧畔千帆过 病树前头万木春</div><br>
