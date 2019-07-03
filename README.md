@@ -32,13 +32,28 @@ Save the image you want as background to the PIC / img folder and rename it as 1
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），按命名顺序更改index.html中的var works参数变量，改为作品链接<br>
 Use Dreamweaver or other HTML compilers (Notepad++) to change the VaR works parameter variables in index. HTML in naming order to work links.<br>
 
-<div align=center><img src="" /></div><br>
+```JavaScript
+var works = ["https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72525491",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=66347331",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74759884",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75102830",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75087826",
+      ...............................................................................
+      "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74130354",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73891130",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=58728655",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73636925",
+			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74228429"];
+```
 
 3.按命名顺序更改var work参数变量，改为作品名<br>
 Change var work parameter variables in naming order to work name.<br>
 
-<div align=center><img src="" /></div><br>
-<br>
+```JavaScript
+var work = ["She is on the calm stage.","圧倒的美少女","画个熊天使","芸カ新刊「START LINE」サンプル","2",
+            .........................................................................................
+            "好きだったよ","楔","波の音","WIND~","割れてしまう前に"];
+```
 
 ### 作者替换/Author Replacement(=・ω・=)
 1.按照背景图片的命名顺序，将作者头像保存到pic/head文件夹，并重命名为1.png,2.png……<br>
@@ -49,13 +64,28 @@ According to the naming order of background pictures, the author's head is saved
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），按命名顺序更改index.html中的var authors参数变量，改为作者主页链接<br>
 Using Dreamweaver or other HTML compilers (Notepad++), change the var authors parameter variables in index. HTML in naming order to the author's home page link.<br>
 
-<div align=center><img src="" /></div><br>
+```JavaScript
+var authors = ["https://www.pixiv.net/member.php?id=23223750",
+			   "https://www.pixiv.net/member.php?id=10511528",
+			   "https://www.pixiv.net/member.php?id=7253174",
+			   "https://www.pixiv.net/member.php?id=12845810",
+			   "https://www.pixiv.net/member.php?id=420928",
+         .....................................................
+        "https://www.pixiv.net/member.php?id=431873",
+			  "https://www.pixiv.net/member.php?id=1409819",
+			  "https://www.pixiv.net/member.php?id=337971",
+			  "https://www.pixiv.net/member.php?id=10710834",
+			  "https://www.pixiv.net/member.php?id=396769"];
+```
 
 3.按命名顺序更改var author参数变量，改为作者名<br>
 Change var author parameter variable to author name in naming order.<br>
 
-<div align=center><img src="" /></div><br>
-<br>
+```JavaScript
+var author = ["banishment","鮎瀬サウリ","卧龙先生的爸爸","焦茶 ◆ 芸カ キ01","_LM7_",
+              ....................................................................
+              "しぐれうい","ふすい","U35(うみこ)","Novelance","げみ"];
+```
 
 ### 社交平台/Social Platform(=・ω・=)
 1.将自己社交平台头像保存到pic/logo文件夹，并重命名为bilibili.jpg,twitter.jpg……<br>
@@ -63,10 +93,24 @@ Save your social platform avatar in the PIC / logo folder and rename it bilibili
 
 <div align=center><img src="" /></div><br>
 
-2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），更改dl class="link"区域中的链接与社交平台对应的名称<br>
+2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），更改dl class="links"区域中的链接与社交平台对应的名称<br>
 Using Dreamweaver or other HTML compilers (Notepad++), change the name of the link in the DL class= "link" area to correspond to the social platform.<br>
 
-<div align=center><img src="" /></div><br>
+```HTML5
+<dl class="links">
+							<dt>哔哩哔哩[bilibili]</dt>
+							<dd>
+								<div class="head_pic">
+									<a href="https://space.bilibili.com/1605910" target="_blank">
+										<img src="pic/logo/bilibili.jpg" id="headimg">
+									</a>
+								</div>
+								<ul>
+									<li><a href="https://space.bilibili.com/1605910" target="_blank">ヴァン青</a></li>
+								</ul>
+							</dd>
+						</dl>
+```
 
 ### 主页音乐/Homepage Music(=・ω・=)
 1.将音乐以MP3格式保存到music文件夹，并重命名为1.mp3,2.mp3……<br>
@@ -77,8 +121,10 @@ Save music in MP3 format to music folder and rename it 1. mp3, 2. mp3...<br>
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），按歌曲名顺序更改index.html中的var singer参数变量，改为歌曲名<br>
 Using Dreamweaver or other HTML compilers (Notepad++), change the VaR singer parameter variable in index. HTML to the song name in the order of song names.<br>
 
-<div align=center><img src="" /></div><br>
-<br>
+```JavaScript
+var singer = ["松谷卓 - 共病文庫","Shelter (Piano version)","Axero - River","米津玄師 - lemon",
+			  "第三乐章 - 表象展观","ツキアカリのミチシルベ","周深 - 亲爱的旅人啊"];
+```
 
 ## 备注/RemarksΣ( ￣□￣||)
 如果想要增加/减少背景图片，对于index.html文件中的var pictures,var work,var works,var heads,var author及var authors进行同样的增加/减少<br>
