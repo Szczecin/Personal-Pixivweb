@@ -20,14 +20,14 @@ Warm Tip: Better Browsing Experience with Chrome~<br>
 Warning: Due to insufficient personal ability, the home page can not link to Pixiv personal account synchronously, and the operation will be tedious.QAQ<br>
 I will try to update the project later, synchronize the background map with the daily list of P stations (or personal account favorites), and throw the poorly designed blog together.ORZ<br>
 
-<div align=center><img src="" />你的进度怎么样了</div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190427232547.png" />你的进度怎么样了</div><br>
 <br>
 
 ### 背景替换/Background substitution(=・ω・=)
 1.将想要作为背景的图片保存到pic/img文件夹，并重命名为1.png,2.png……<br>
 Save the image you want as background to the PIC / img folder and rename it as 1. png, 2. png...<br>
 
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190701145413.png" /></div><br>
 
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），按命名顺序更改index.html中的var works参数变量，改为作品链接<br>
 Use Dreamweaver or other HTML compilers (Notepad++) to change the VaR works parameter variables in index. HTML in naming order to work links.<br>
@@ -59,7 +59,7 @@ var work = ["She is on the calm stage.","圧倒的美少女","画个熊天使","
 1.按照背景图片的命名顺序，将作者头像保存到pic/head文件夹，并重命名为1.png,2.png……<br>
 According to the naming order of background pictures, the author's head is saved in the PIC / head folder and renamed 1.png, 2.png...<br>
 
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190701145536.png" /></div><br>
 
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），按命名顺序更改index.html中的var authors参数变量，改为作者主页链接<br>
 Using Dreamweaver or other HTML compilers (Notepad++), change the var authors parameter variables in index. HTML in naming order to the author's home page link.<br>
@@ -91,7 +91,7 @@ var author = ["banishment","鮎瀬サウリ","卧龙先生的爸爸","焦茶 ◆
 1.将自己社交平台头像保存到pic/logo文件夹，并重命名为bilibili.jpg,twitter.jpg……<br>
 Save your social platform avatar in the PIC / logo folder and rename it bilibili. jpg,twitter.jpg...<br>
 
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190701145601.png" /></div><br>
 
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），更改dl class="links"区域中的链接与社交平台对应的名称<br>
 Using Dreamweaver or other HTML compilers (Notepad++), change the name of the link in the DL class= "link" area to correspond to the social platform.<br>
@@ -116,7 +116,7 @@ Using Dreamweaver or other HTML compilers (Notepad++), change the name of the li
 1.将音乐以MP3格式保存到music文件夹，并重命名为1.mp3,2.mp3……<br>
 Save music in MP3 format to music folder and rename it 1. mp3, 2. mp3...<br>
 
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190701145636.png" /></div><br>
 
 2.使用Dreamweaver或其他HTML编译器（图中是Notepad++），按歌曲名顺序更改index.html中的var singer参数变量，改为歌曲名<br>
 Using Dreamweaver or other HTML compilers (Notepad++), change the VaR singer parameter variable in index. HTML to the song name in the order of song names.<br>
@@ -147,7 +147,7 @@ All the rights involved in this project belong to the original author. Thank eac
 Sometimes we get together, and then there's no end to it.<br>
 Hoping to see you soon.<br>
 
-<div align=center><img src="" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/377adab44aed2e73c83a71a98c01a18b86d6fa60.jpg" /></div><br>
 <br>
 
 ## <div align=center>Open the eyes to see the world when the world like to see you.<br><br>向热爱着你的世界投入拥抱</div><br>
