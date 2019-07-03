@@ -34,16 +34,16 @@ Use Dreamweaver or other HTML compilers (Notepad++) to change the VaR works para
 
 ```JavaScript
 var works = ["https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72525491",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=66347331",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74759884",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75102830",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75087826",
-      ...............................................................................
-      "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74130354",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73891130",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=58728655",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73636925",
-			"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74228429"];
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=66347331",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74759884",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75102830",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=75087826",
+      		...............................................................................
+      		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74130354",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73891130",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=58728655",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=73636925",
+		"https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74228429"];
 ```
 
 3.按命名顺序更改var work参数变量，改为作品名<br>
@@ -66,16 +66,16 @@ Using Dreamweaver or other HTML compilers (Notepad++), change the var authors pa
 
 ```JavaScript
 var authors = ["https://www.pixiv.net/member.php?id=23223750",
-			   "https://www.pixiv.net/member.php?id=10511528",
-			   "https://www.pixiv.net/member.php?id=7253174",
-			   "https://www.pixiv.net/member.php?id=12845810",
-			   "https://www.pixiv.net/member.php?id=420928",
-         .....................................................
-        "https://www.pixiv.net/member.php?id=431873",
-			  "https://www.pixiv.net/member.php?id=1409819",
-			  "https://www.pixiv.net/member.php?id=337971",
-			  "https://www.pixiv.net/member.php?id=10710834",
-			  "https://www.pixiv.net/member.php?id=396769"];
+		"https://www.pixiv.net/member.php?id=10511528",
+		"https://www.pixiv.net/member.php?id=7253174",
+		"https://www.pixiv.net/member.php?id=12845810",
+		"https://www.pixiv.net/member.php?id=420928",
+         	..............................................
+        	"https://www.pixiv.net/member.php?id=431873",
+		"https://www.pixiv.net/member.php?id=1409819",
+		"https://www.pixiv.net/member.php?id=337971",
+		"https://www.pixiv.net/member.php?id=10710834",
+		"https://www.pixiv.net/member.php?id=396769"];
 ```
 
 3.按命名顺序更改var author参数变量，改为作者名<br>
@@ -98,18 +98,18 @@ Using Dreamweaver or other HTML compilers (Notepad++), change the name of the li
 
 ```HTML5
 <dl class="links">
-							<dt>哔哩哔哩[bilibili]</dt>
-							<dd>
-								<div class="head_pic">
-									<a href="https://space.bilibili.com/1605910" target="_blank">
-										<img src="pic/logo/bilibili.jpg" id="headimg">
-									</a>
-								</div>
-								<ul>
-									<li><a href="https://space.bilibili.com/1605910" target="_blank">ヴァン青</a></li>
-								</ul>
-							</dd>
-						</dl>
+	<dt>哔哩哔哩[bilibili]</dt>
+	<dd>
+		<div class="head_pic">
+			<a href="https://space.bilibili.com/1605910" target="_blank">
+				<img src="pic/logo/bilibili.jpg" id="headimg">
+			</a>
+		</div>
+		<ul>
+			<li><a href="https://space.bilibili.com/1605910" target="_blank">ヴァン青</a></li>
+		</ul>
+	</dd>
+</dl>
 ```
 
 ### 主页音乐/Homepage Music(=・ω・=)
