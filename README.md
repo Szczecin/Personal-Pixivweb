@@ -133,7 +133,7 @@ If you want to increase or decrease the background image, increase or decrease t
 如果想要增加/减少主页歌曲，对于index.html文件中的var music及var singer进行同样的增加/减少<br>
 If you want to add/reduce home page songs, add/decrease the same number of VaR music and VaR singer in index. HTML file<br>
 
-<div align=center><img src=""问题解决了 /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190427222457.png" />问题解决了</div><br>
 <br>
 
 ## 写在最后/In the end
