@@ -4,17 +4,23 @@ This is a web page which is linking with Pixiv,maybe.<br>
 这里是渣新自己写的一份HTML5期中作业（W大雾W），是一个仿Pixiv登录页制作的个人主页，大概吧？(°∀°)ﾉ<br>
 I hope you don't expect it too much.<br>
 
-<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190429223008.png" />你的进度怎么样了</div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190429223008.png" />绝对不可以笑哦</div><br>
 <br>
 
 ## 效果预览/Effect Preview(｀・ω・´)
 温馨提示：使用Chrome食用体验更佳哦~<br>
 Warm Tip: Better Browsing Experience with Chrome~<br>
 
-<div align=center><img src="https://github.com/Szczecin/Pixivweb.gif/blob/master/V1.gif" /></div><br>
-<div align=center><img src="https://github.com/Szczecin/Pixivweb.gif/blob/master/V2.gif" /></div><br>
-<div align=center><img src="https://github.com/Szczecin/Pixivweb.gif/blob/master/V3.gif" /></div><br>
-<div align=center><img src="https://github.com/Szczecin/Pixivweb.gif/blob/master/V4.gif" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704144727.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704150104.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704151239.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704152632.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704144803.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704144819.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704145001.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704151530.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704151624.png" /></div><br>
+<div align=center><img src="https://github.com/Szczecin/Personal-Pixivweb/blob/master/%E6%9D%82%E7%89%A9%E9%97%B4Utility%20Room/TIM%E6%88%AA%E5%9B%BE20190704151648.png" /></div><br>
 <br>
 
 ## 食用说明/InstructionsΣ(ﾟдﾟ;)
